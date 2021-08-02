@@ -1,0 +1,9 @@
+path: ../datasets/custom_data  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+names: ['person', 'bicycle', 'car', 'motorcycle']  # class names
+
+nc: 4  # number of classes
